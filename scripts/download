@@ -11,7 +11,7 @@ tag="v0.15.2"
 
 if [ "${platform}" == "linux" ]; then
     if [ "${arch}" == "x86_64" ]; then
-        tarball_name="bitcore-linux.tar.gz"
+        tarball_name="bithereum-build-0.15.2-x86_64-linux-gnu.tar.gz"
     elif [ "${arch}" == "x86_32" ]; then
       echo "Bitcoin binary distribution not available for platform and architecture"
       exit -1
