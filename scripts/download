@@ -54,7 +54,7 @@ download_bitcoind() {
             echo "Unpacking bitcoin distribution"
             tar -xvzf $tarball_name
             if test $? -eq 0; then
-                ln -sf "bitcore-linux/bin/bethd"
+                ln -sf "bithereum-build-0.15.2/bin/bethd"
                 return;
             fi
         fi
